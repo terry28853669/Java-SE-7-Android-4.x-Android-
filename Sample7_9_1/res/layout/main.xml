@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/white"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+  <TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="@drawable/blue"
+    android:text="按下按鈕下載"
+  android:id="@+id/T01"/>
+  <ProgressBar style="?android:attr/progressBarStyleHorizontal" android:layout_height="wrap_content" android:layout_width="fill_parent" android:max="100" android:progress="0" android:id="@+id/PB01"></ProgressBar>
+  <Button
+    android:id="@+id/B01"
+    android:layout_height="wrap_content"
+    android:text="開始下載" android:layout_width="166dp"/>
+</LinearLayout>

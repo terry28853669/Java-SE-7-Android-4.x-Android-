@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="攝氏" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/txtC"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="button1_Click"
+            android:text="轉換" />
+    </TableRow>
+
+</TableLayout>

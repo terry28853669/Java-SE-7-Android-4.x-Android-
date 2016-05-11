@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">나이 계산</string>
+    <string name="str1">생년월일을 입력하십시오</string>
+    <string name="str2">년 (YYYY)</string>
+    <string name="str3">월 (MM)</string>
+    <string name="str4">일 (DD)</string>
+    <string name="str5">결과</string>
+
+</resources>

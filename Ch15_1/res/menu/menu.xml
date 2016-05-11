@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/toF"
+     android:icon="@drawable/rightarrow"
+     android:title="轉華氏"/>
+   <item android:id="@+id/toC"
+     android:icon="@drawable/leftarrow"
+     android:title="轉攝氏"/>
+</menu>
+

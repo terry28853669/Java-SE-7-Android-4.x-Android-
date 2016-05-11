@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <TextView android:text="運算元(一): " 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"/>
+      <EditText android:id="@+id/txtOpd1"
+        android:layout_width="fill_parent"          
+        android:layout_height="wrap_content"
+        android:inputType="number"/>           
+   </LinearLayout>
+   <RadioGroup android:id="@+id/rdgOp"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+      <RadioButton android:id="@+id/rdbAdd"
+        android:text="+ "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+      <RadioButton android:id="@+id/rdbSubtract"
+        android:text="- "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+      <RadioButton android:id="@+id/rdbMultiply"
+        android:text="* " 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/> 
+      <RadioButton android:id="@+id/rdbDivide"
+        android:text="/ "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>  
+   </RadioGroup>   
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <TextView android:text="運算元(二): "
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"/>
+      <EditText android:id="@+id/txtOpd2"
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content"
+        android:inputType="number"/> 
+   </LinearLayout>
+   <CheckBox android:id="@+id/chkDivide"
+      android:text="整數除法"
+      android:checked="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+   <Button android:id="@+id/button1"
+      android:text="計算"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/> 
+   <TextView android:id="@+id/lblOutput"
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content"/>     
+</LinearLayout>

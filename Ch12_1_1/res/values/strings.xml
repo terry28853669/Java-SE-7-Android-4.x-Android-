@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">第一個Android應用程式</string>
+    <string name="app_name">Android範例</string>
+
+</resources>

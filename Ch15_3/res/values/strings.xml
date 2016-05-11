@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">請選擇運算子</string>
+    <string name="app_name">Ch15_3</string>
+    <string-array name="op">
+        <item >+</item>
+        <item >-</item>
+        <item >*</item>
+        <item >/</item>
+    </string-array>
+</resources>

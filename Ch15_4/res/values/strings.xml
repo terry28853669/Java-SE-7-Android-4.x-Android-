@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Ch15_4Activity!</string>
+    <string name="app_name">Ch15_4</string>
+
+    <string-array name="portal_sites">
+        <item>Google谷歌</item>
+        <item>Yahoo!奇摩</item>
+        <item>微軟公司</item>
+        <item>中華電信</item>
+        <item>PC HOME</item>
+    </string-array>
+    <string-array name="portal_urls">
+        <item>http://www.google.com.tw</item>
+        <item>http://www.yahoo.com.tw</item>
+        <item>http://www.microsoft.com.tw</item>
+        <item>http://www.hinet.net</item>
+        <item>http://www.pchome.com.tw</item>
+    </string-array>
+
+</resources>

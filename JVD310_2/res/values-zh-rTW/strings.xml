@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">計算年齡</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str1">請輸入出生年月日</string>
+    <string name="str2">年(YYYY)</string>
+    <string name="str3">月(MM)</string>
+    <string name="str4">日(DD)</string>
+    <string name="str5">計算結果</string>
+
+</resources>

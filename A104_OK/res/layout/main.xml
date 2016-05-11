@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget0"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/textView1" android:layout_height="wrap_content"
+		android:layout_x="42dp" android:layout_y="28dp" android:text="@string/title" android:textSize="25sp" android:layout_width="241dp"></TextView>
+	<RadioGroup android:layout_height="wrap_content"
+		android:id="@+id/radioGroup1"
+		android:layout_x="95dp" android:layout_y="71dp" android:weightSum="1"
+		android:layout_width="207dp" android:orientation="horizontal">
+		<RadioButton android:layout_width="wrap_content"
+			android:text="男生" android:layout_height="wrap_content"
+			android:checked="true" android:layout_weight="0.48" android:id="@+id/male"></RadioButton>
+		<RadioButton android:layout_height="wrap_content"
+			android:text="女生" android:layout_width="wrap_content"
+			android:layout_weight="0.84" android:id="@+id/female"></RadioButton>
+	</RadioGroup>
+	<EditText android:layout_height="wrap_content"
+		android:inputType="numberDecimal" android:layout_x="98dp"
+		android:layout_y="115dp" android:layout_width="167dp" android:id="@+id/height">
+		<requestFocus></requestFocus>
+	</EditText>
+	<EditText android:layout_height="wrap_content"
+		android:inputType="numberDecimal" android:layout_x="98dp"
+		android:layout_y="170dp" android:layout_width="167dp" android:id="@+id/weight"></EditText>
+	<TextView android:text="體重(kg)：" android:id="@+id/textView4"
+		android:layout_height="wrap_content" android:layout_x="19dp"
+		android:layout_y="178dp" android:layout_width="142dp"></TextView>
+	<Button android:layout_width="79dp" android:layout_height="wrap_content" android:layout_x="147dp"
+		android:layout_y="229dp" android:text=" 計算 " android:id="@+id/button1"></Button>
+	<TextView android:text="男生/女生：" android:layout_height="wrap_content"
+		android:id="@+id/textView2" android:layout_x="20dp" android:layout_y="86dp"
+		android:layout_width="87dp"></TextView>
+	<TextView android:text="身高(m)：" android:layout_height="wrap_content"
+		android:id="@+id/textView3"
+		android:layout_x="18dp" android:layout_y="129dp" android:layout_width="112dp"></TextView>
+
+</AbsoluteLayout>

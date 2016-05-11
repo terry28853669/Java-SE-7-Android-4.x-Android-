@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">计算年龄</string>
+    <string name="str1">请输入出生年月日</string>
+    <string name="str2">年（YYYY）</string>
+    <string name="str3">月（MM）</string>
+    <string name="str4">日（DD）</string>
+    <string name="str5">计算结果</string>
+
+</resources>

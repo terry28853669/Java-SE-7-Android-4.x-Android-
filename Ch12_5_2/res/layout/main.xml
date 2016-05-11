@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <TextView android:text="運算元(一): " 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"/>
+      <EditText 
+        android:layout_width="fill_parent"          
+        android:layout_height="wrap_content"
+        android:inputType="number"/>           
+   </LinearLayout>
+   <RadioGroup android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+      <RadioButton android:text="+ "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+      <RadioButton android:text="- "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+      <RadioButton android:text="* " 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/> 
+      <RadioButton android:text="/ "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>  
+   </RadioGroup>   
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <TextView android:text="運算元(二): "
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"/>
+      <EditText 
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content"
+        android:inputType="number"/> 
+   </LinearLayout>
+   <CheckBox android:text="整數除法"
+      android:checked="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+   <Button android:text="計算"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>   
+</LinearLayout>
+

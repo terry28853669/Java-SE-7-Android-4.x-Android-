@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Ch13_4_2Activity!</string>
+    <string name="app_name">Ch13_4_2</string>
+    <string name="c1">運算元(一): </string>
+</resources>

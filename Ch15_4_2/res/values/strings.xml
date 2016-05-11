@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch15_4_2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="portal_sites1">
+        <item>Google谷歌</item>
+        <item>Yahoo!奇摩</item>
+        <item>微軟公司</item>
+        <item>中華電信</item>
+        <item>PC HOME</item>
+    </string-array>
+        <string-array name="portal_sites2">
+        <item>Beauty 版搜尋</item>
+        <item>BBS關鍵字搜尋</item>
+    </string-array>
+        <string-array name="portal_sites3">
+        <item>買書的比價網</item>
+        <item>買東西的比價網</item>
+    </string-array>
+        <string-array name="portal_sites4">
+        <item>找影片的專家</item>
+        <item>找音樂MV的酷站</item>
+    </string-array>
+    <string-array name="portal_urls1">
+        <item>http://www.google.com.tw</item>
+        <item>http://www.yahoo.com.tw</item>
+        <item>http://www.microsoft.com.tw</item>
+        <item>http://www.hinet.net</item>
+        <item>http://www.pchome.com.tw</item>
+    </string-array>
+        <string-array name="portal_urls2">
+        <item>http://www.google.com.tw</item>
+        <item>http://www.yahoo.com.tw</item>
+    </string-array>
+        <string-array name="portal_urls3">
+        <item>http://www.google.com.tw</item>
+        <item>http://www.yahoo.com.tw</item>
+    </string-array>
+        <string-array name="portal_urls4">
+        <item>http://www.google.com.tw</item>
+        <item>http://www.yahoo.com.tw</item>
+    </string-array>
+    <string-array name="sites_class">
+        <item >入口網站</item>
+        <item >BBS資料搜尋</item>
+        <item >網路購物資料搜尋</item>
+        <item >影音類資料搜尋</item>
+    </string-array>
+</resources>
